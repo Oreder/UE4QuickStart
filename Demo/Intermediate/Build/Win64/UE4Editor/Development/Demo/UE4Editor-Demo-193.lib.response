@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Demo-193.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\DemoEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\UE4Editor\Development\Demo\Demo.cpp.obj"
+"C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\UE4Editor\Development\Demo\DemoGameModeBase.cpp.obj"
+"C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\UE4Editor\Development\Demo\FloatingActor.cpp.obj"
+"C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\UE4Editor\Development\Demo\Demo.init.gen.cpp.obj"
+"C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\UE4Editor\Development\Demo\DemoGameModeBase.gen.cpp.obj"
+"C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\UE4Editor\Development\Demo\FloatingActor.gen.cpp.obj"
+"C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\UE4Editor\Development\Demo\PCLaunch.rc.res"
+/OUT:"C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\UE4Editor\Development\Demo\UE4Editor-Demo-193.lib"

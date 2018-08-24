@@ -1,0 +1,16 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading DemoEditor (modules to compile have changed)
+  Compiling game modules for hot reload
+  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for DemoEditor
+    Running UnrealHeaderTool "C:\Users\TA\Desktop\UE4QuickStart\Demo\Demo.uproject" "C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\DemoEditor\Development\DemoEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for DemoEditor in 19.3281193 seconds
+  Building 4 actions with 8 processes...
+    [1/4] FloatingActor.cpp
+    [2/4] FloatingActor.gen.cpp
+    [3/4] UE4Editor-Demo-193.lib
+       Creating library C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\UE4Editor\Development\Demo\UE4Editor-Demo-193.lib and object C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\UE4Editor\Development\Demo\UE4Editor-Demo-193.exp
+    [4/4] UE4Editor-Demo-193.dll
+       Creating library C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\UE4Editor\Development\Demo\UE4Editor-Demo-193.suppressed.lib and object C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\UE4Editor\Development\Demo\UE4Editor-Demo-193.suppressed.exp
+  Deploying DemoEditor Win64 Development...
+  Total build time: 47.95 seconds (Parallel executor: 2.97 seconds)
