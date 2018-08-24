@@ -1,0 +1,3 @@
+C:\Users\TA\Desktop\UE4QuickStart\Demo\Source\Demo\Demo.Build.cs
+C:\Users\TA\Desktop\UE4QuickStart\Demo\Source\Demo.Target.cs
+C:\Users\TA\Desktop\UE4QuickStart\Demo\Source\DemoEditor.Target.cs
