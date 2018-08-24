@@ -1,16 +1,27 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading DemoEditor (modules to compile have changed)
+﻿  Cleaning DemoEditor Binaries...
+UnrealBuildTool : error : Unable to clean target while hot-reloading. Close the editor and try again.
+                          (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+  Performing full C++ include scan (hot reloading a new target)
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading DemoEditor (no existing makefile)
   Compiling game modules for hot reload
   Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for DemoEditor
-    Running UnrealHeaderTool "C:\Users\TA\Desktop\UE4QuickStart\Demo\Demo.uproject" "C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\DemoEditor\Development\DemoEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for DemoEditor in 19.3281193 seconds
-  Building 4 actions with 8 processes...
-    [1/4] FloatingActor.cpp
-    [2/4] FloatingActor.gen.cpp
-    [3/4] UE4Editor-Demo-193.lib
-       Creating library C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\UE4Editor\Development\Demo\UE4Editor-Demo-193.lib and object C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\UE4Editor\Development\Demo\UE4Editor-Demo-193.exp
-    [4/4] UE4Editor-Demo-193.dll
-       Creating library C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\UE4Editor\Development\Demo\UE4Editor-Demo-193.suppressed.lib and object C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\UE4Editor\Development\Demo\UE4Editor-Demo-193.suppressed.exp
-  Deploying DemoEditor Win64 Development...
-  Total build time: 47.95 seconds (Parallel executor: 2.97 seconds)
+    Running UnrealHeaderTool "C:\Users\TA\Desktop\UE4QuickStart\Demo\Demo.uproject" "C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\DemoEditor\DebugGame\DemoEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for DemoEditor in 19.0826795 seconds
+  Building 10 actions with 8 processes...
+    [1/10] PCLaunch.rc
+    [2/10] SharedPCH.Engine.NonOptimized.cpp
+    [3/10] Demo.cpp
+    [4/10] Demo.init.gen.cpp
+    [5/10] FloatingActor.cpp
+    [6/10] DemoGameModeBase.cpp
+    [7/10] FloatingActor.gen.cpp
+    [8/10] DemoGameModeBase.gen.cpp
+    [9/10] UE4Editor-Demo-6583-Win64-DebugGame.lib
+       Creating library C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\UE4Editor\DebugGame\Demo\UE4Editor-Demo-6583-Win64-DebugGame.lib and object C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\UE4Editor\DebugGame\Demo\UE4Editor-Demo-6583-Win64-DebugGame.exp
+    [10/10] UE4Editor-Demo-6583-Win64-DebugGame.dll
+       Creating library C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\UE4Editor\DebugGame\Demo\UE4Editor-Demo-6583-Win64-DebugGame.suppressed.lib and object C:\Users\TA\Desktop\UE4QuickStart\Demo\Intermediate\Build\Win64\UE4Editor\DebugGame\Demo\UE4Editor-Demo-6583-Win64-DebugGame.suppressed.exp
+  Deploying DemoEditor Win64 DebugGame...
+  Total build time: 116.89 seconds (Parallel executor: 43.62 seconds)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(49,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat" DemoEditor Win64 DebugGame "C:\Users\TA\Desktop\UE4QuickStart\Demo\Demo.uproject" -WaitMutex -FromMsBuild" exited with code -1.
